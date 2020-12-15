@@ -111,9 +111,9 @@ const ReadMore = ({
           <TouchableOpacity
             onPress={toggle}
             style={[styles.seeMoreButton, {backgroundColor}]}>
-            <TextComponent {...restProps} style={style}>
-              {'... '}
-            </TextComponent>
+            {/*<TextComponent {...restProps} style={style}>*/}
+            {/*  {'... '}*/}
+            {/*</TextComponent>*/}
             <Text style={seeMoreStyle}>{seeMoreText}</Text>
           </TouchableOpacity>
         </View>
@@ -139,10 +139,10 @@ const styles = StyleSheet.create({
     color: 'transparent',
   },
   seeMoreContainer: {
-    position: 'absolute',
-    right: 0,
-    bottom: 0,
-    flexDirection: 'row',
+    //position: 'absolute',
+    //right: 0,
+    //bottom: 0,
+    //flexDirection: 'row',
   },
   seeMoreButton: {
     flexDirection: 'row',
